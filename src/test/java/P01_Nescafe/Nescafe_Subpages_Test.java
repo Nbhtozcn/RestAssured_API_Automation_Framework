@@ -33,7 +33,6 @@ public class Nescafe_Subpages_Test {
         /** Step3: Print the results to the console.*/
             System.out.println(url + " - " + (isPageError ? "Error" : "OK"));
         }
-
     }
 
     private List<String> extractUrlsFromSitemapUsingRegex(String sitemapContent) {
